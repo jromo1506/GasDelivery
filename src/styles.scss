@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Varela+Round&display=swap');
+
+
+:root{
+    --primary:#071952;
+    --primary-dark:rgb(34, 20, 120);
+
+    --secondary:#3b3e72;
+    --secondary-dark:#242551;
+
+    --text-light:#ffffff;
+    --text-dark:black;
+
+    --border-light:white;
+    --border-black:black;
+
+}
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: "Lato", sans-serif;
+}
+
+.flex-c{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-sa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-col-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn{
+    padding:15px;
+    border:none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: var(--secondary);
+    color:var(--text-light);
+}
+
+.formInput{
+    padding:5px;
+  
+    border:none;
+    border-bottom:1px solid var(--primary)
+}
+
+.w-100{
+    width: 100%;
+}
+
+.select{
+    padding: 10px;
+    font-size: 15px;
+}
